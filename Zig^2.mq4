@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                                       Zig^2.mq4  |
-//|        Khalfani, for i have eddited the code to add functionality|
+//|Copyright:    Khalfani, for i have eddited the code to add functionality|
 //|                                              http://www.mql4.com |
 //+------------------------------------------------------------------+
 #property copyright "Made By Khalfani"
@@ -269,67 +269,6 @@ public:
 
               }
            }
-/* if(Low[i]<RangeMax && Low[barstocount+i+1]>RangeMax)//Entered through top x  bars ago
-           {
-            for(j=0;j<barstocount+1;j++)
-              {
-
-               if(Close[i+j]<RangeMin-tenthpip*5)//if it moves half a pip through
-                 {
-                  strikesagainst++;
-                  break;
-                 }
-               if(Close[i+j]<RangeMin && Open[i+j]<RangeMin)
-                 {
-                  strikesagainst++;
-                  break;
-                 }
-               if(j==barstocount)
-                 {
-                  if(Close[i-barstocount]<=RangeMax)//if it does not close out
-                    {
-                     strikesagainst++;
-                     break;
-                    }
-                  else
-                    {
-                     strikesfor++;
-                     break;
-                    }
-                 }
-
-              }
-
-           }
-
-         if(High[barstocount+i]>RangeMin && High[barstocount+i+1]<RangeMin)//Entered through bottom 5 bars ago
-           {
-            for(j=0;j<barstocount+1;j++)
-              {
-               if(Close[i+j]>RangeMax+tenthpip*15)
-                 {
-                  strikesagainst++;
-                  break;
-                 }
-               if(Close[i+j]>RangeMax && Open[i+j]>RangeMax)
-                 {
-                  strikesagainst++;
-                  break;
-                 }
-               if(j==barstocount)
-                 {
-                  if(Close[i-barstocount]>=RangeMin)//if it does not close out
-                    {
-                     strikesagainst++;
-                    }
-                  else
-                    {
-                     strikesfor++;
-                    }
-                 }
-
-              }
-           }*/
 
         }
 
