@@ -3,6 +3,12 @@
 
 This indicator is based the MetaTrader platform:  Metatrader is an application that displays currency market data, it also has its own programming language MQL4. MQL4 is comparable to C++. 
 
-This is based of the ZigZag indicator which makes points on the market chart 
+This is based of the ZigZag indicator which makes points on the market chart at the top and bottoms of prices.
+
+I create a range from each point. 
+From these ranges I apply some tests to see if they are in my strategy. 
+If they pass all the tests I draw them expilicitly.
+
+The puple line on the y axis in this image is the line of death.The purple line moves wtih time as it new pricess are graphed. After enough time passes and the purple line reaches a box then it will be deleted. 
 
 
