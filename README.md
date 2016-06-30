@@ -16,6 +16,8 @@ If they pass all the tests I draw them expilicitly.
 
 The puple line on the y axis in this image is the line of death.The purple line moves wtih time as new prices are graphed. After enough time passes and the purple line reaches a box then it will be deleted. 
 
+It checks if price stays in the box when a new bar is created and uses the  mql4 tool to create an alert.
+
 
 *when looking at the source it is better to look at in a c++ ide so it color codes it.
 
