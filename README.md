@@ -3,6 +3,6 @@
 
 This indicator is based the MetaTrader platform:  Metatrader is an application that displays currency market data, it also has its own programming language MQL4. MQL4 is comparable to C++. 
 
-
+This is based of the ZigZag indicator which makes points on the market chart 
 
 
