@@ -5,10 +5,11 @@ This indicator is based the MetaTrader platform:  Metatrader is an application t
 
 This is based of the ZigZag indicator which makes points on the market chart at the top and bottoms of prices.
 
+ I only created the blue boxes and the purple line,this example is pretty dull.
+
 [This is what it looks like in action](https://github.com/KhalfaniWadlington/Support-and-Ressitance-Boxes-/blob/master/Screenshot%20from%202016-06-30%2018:01:07.png)
 
 
- I only created the blue boxes and the purple line,this example is pretty dull.
 
 I create a range from each point. 
 From these ranges I apply some tests to see if they are in my strategy. 
