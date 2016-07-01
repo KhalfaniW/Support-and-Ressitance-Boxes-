@@ -8,12 +8,13 @@ This is based of the ZigZag indicator which makes points on the market chart at 
  In the following example I only created the blue boxes and the purple line.
 
 [This is what it looks like in action](https://github.com/KhalfaniWadlington/Support-and-Ressitance-Boxes-/blob/master/Screenshot%20from%202016-06-30%2020:20:47.png)
-this example is pretty dull
 
 
 I create a range from each point. 
 From these ranges I apply some tests to see if they are in my strategy. 
 If they pass all the tests I draw them expilicitly.
+In Metatrader if two objects overlap they become invisble at the intersections, 
+to combat this I made changed the color of the newer box
 
 The puple line on the y axis in this image is the line of death.The purple line moves wtih time as new prices are graphed. After enough time passes and the purple line reaches a box then it will be deleted. 
 
