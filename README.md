@@ -5,7 +5,7 @@ This indicator is based the MetaTrader platform:  Metatrader is an application t
 
 This is based of the ZigZag indicator which makes points on the market chart at the top and bottoms of prices.
 
- In the following example I only created the blue boxes and the purple line.
+ In the following example I only created the muliticolored boxes and the purple line.
 
 [This is what it looks like in action](https://github.com/KhalfaniWadlington/Support-and-Ressitance-Boxes-/blob/master/Screenshot%20from%202016-06-30%2020:20:47.png)
 
