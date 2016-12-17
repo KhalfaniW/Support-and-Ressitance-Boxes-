@@ -20,7 +20,7 @@ The purple line on the y axis in this image is the line of death.The purple line
 
 It checks if price stays in the box when a new bar is created and uses the  MQL4 tool to create an alert.
 
-
+it requires the ZigZag indicator to run (hence its name)
 *when looking at the source it is better to look at in a c++ ide so it color codes it.
 
 
